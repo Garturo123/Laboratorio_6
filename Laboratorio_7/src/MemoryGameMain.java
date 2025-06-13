@@ -14,7 +14,7 @@ public class MemoryGameMain {
 
         
          JPanel botones = new JPanel();
-        botones.setLayout(new GridLayout(6, 6));
+        botones.setLayout((LayoutManager) new GridLayout(6, 6));
 
         JLabel oportunidades = new JLabel("Intentos restantes: " + intentos);
         oportunidades.setHorizontalAlignment(SwingConstants.CENTER);
